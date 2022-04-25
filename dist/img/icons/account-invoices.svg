@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="16px" height="16px" viewBox="0 0 16 16" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 58 (84663) - https://sketch.com -->
+    <title>Invoices</title>
+    <desc>Created with Sketch.</desc>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <path d="M14.2222222,0 L1.76888889,0 C0.782222222,0 0.00888888889,0.791111111 0.00888888889,1.77777778 L0,14.2222222 C0,15.2 0.782222222,16 1.76888889,16 L14.2222222,16 C15.2,16 16,15.2 16,14.2222222 L16,1.77777778 C16,0.791111111 15.2,0 14.2222222,0 Z M14.2222222,10.6666667 L10.6666667,10.6666667 C10.6666667,12.1422222 9.46666667,13.3333333 8,13.3333333 C6.53333333,13.3333333 5.33333333,12.1422222 5.33333333,10.6666667 L1.76888889,10.6666667 L1.76888889,1.77777778 L14.2222222,1.77777778 L14.2222222,10.6666667 Z" id="Invoices" fill="#909090" fill-rule="nonzero"></path>
+    </g>
+</svg>

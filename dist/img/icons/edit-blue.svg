@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="18px" height="18px" viewBox="0 0 18 18" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <g stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g transform="translate(-1.000000, -1.000000)">
+            <path d="M1,15.2525 L1,19.0025 L4.75,19.0025 L15.81,7.9425 L12.06,4.1925 L1,15.2525 Z M18.71,5.0425 C19.1,4.6525 19.1,4.0225 18.71,3.6325 L16.37,1.2925 C15.98,0.9025 15.35,0.9025 14.96,1.2925 L13.13,3.1225 L16.88,6.8725 L18.71,5.0425 Z" fill="#2C7BFF" fill-rule="nonzero"></path>
+            <polygon points="0 0 20 0 20 20 0 20"></polygon>
+        </g>
+    </g>
+</svg>

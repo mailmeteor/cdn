@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="17px" height="17px" viewBox="0 0 17 17" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 52.4 (67378) - http://www.bohemiancoding.com/sketch -->
+    <title>info-flag</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <linearGradient x1="50%" y1="0%" x2="50%" y2="100%" id="linearGradient-1">
+            <stop stop-color="#008DDC" offset="0%"></stop>
+            <stop stop-color="#0054B7" offset="100%"></stop>
+        </linearGradient>
+        <linearGradient x1="50%" y1="0%" x2="50%" y2="100%" id="linearGradient-2">
+            <stop stop-color="#0076DC" offset="0%"></stop>
+            <stop stop-color="#0054B7" offset="100%"></stop>
+        </linearGradient>
+    </defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="meteor_alerts_17px">
+            <g id="info-flag">
+                <path d="M10.5382653,2.92729592 L15.8423528,2.92729592 C16.3264836,2.92729592 16.5754208,3.56403159 16.2365783,3.92988405 L14.4109029,5.85463513 L16.2296248,7.77929957 C16.5684673,8.13788002 16.3195301,8.78188775 15.8354811,8.78188775 L10.5382653,8.78188775 L10.5382653,2.92729592 Z" id="Path" fill="url(#linearGradient-1)"></path>
+                <path d="M7.02551022,0.585459183 L11.1887499,0.585459183 C11.4750154,0.585459183 11.7091837,0.848901108 11.7091837,1.17086641 L11.7091837,6.44005105 L7.02551022,6.44005105 L7.02551022,0.585459183 Z" id="Path" fill="url(#linearGradient-1)"></path>
+                <polygon id="Path" fill="#FFFFFF" points="5.85459183 0 7.02551022 0 7.02551022 11.7091837 5.85459183 11.7091837"></polygon>
+                <path d="M0,16.3928571 L12.880102,16.3928571 C12.0659922,12.880102 9.82644582,11.1237245 6.16146257,11.1237245 C2.49647939,11.1237245 0.442658517,12.880102 0,16.3928571 Z" id="Path-2" fill="url(#linearGradient-2)"></path>
+            </g>
+        </g>
+    </g>
+</svg>

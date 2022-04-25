@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="16px" height="16px" viewBox="0 0 16 16" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 58 (84663) - https://sketch.com -->
+    <title>Quota</title>
+    <desc>Created with Sketch.</desc>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <path d="M8,0 C3.58316633,0 0,3.58316633 0,8 C0,12.4168337 3.58316633,16 8,16 C12.4168337,16 16,12.4168337 16,8 C16,3.58316633 12.4168337,0 8,0 Z M7.58316633,14.4128257 L7.58316633,9.39478958 L4.79358717,9.39478958 L8.80160321,1.58717435 L8.80160321,6.60521042 L11.4869739,6.60521042 L7.58316633,14.4128257 Z" id="Quota" fill="#909090" fill-rule="nonzero"></path>
+    </g>
+</svg>
