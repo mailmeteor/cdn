@@ -203,7 +203,7 @@
 
 .goog-modal-dialog-title-close {
   /* Client apps may override the URL at which they serve the sprite. */
-  background: #e0edfe url(//ssl.gstatic.com/editor/editortoolbar.png) no-repeat -528px 0;
+  background: #e0edfe url(gmailUI/editortoolbar.png) no-repeat -528px 0;
   cursor: default;
   height: 15px;
   position: absolute;
@@ -221,10 +221,6 @@
 .goog-modal-dialog-content {
   padding-top: 0;
   padding-bottom: 0;
-}
-
-.goog-buttonset-default {
-  font-weight: bold;
 }
 
 #linkdialog-text-label {
@@ -319,9 +315,9 @@
   font: normal 13px Arial, sans-serif;
   list-style: none;
   margin: 0;
-  /* 38px on the left for icon or checkbox. */
-  padding: 6px 15px 6px 15px;
+  padding: 6px 12px 6px 12px;
   white-space: nowrap;
+  cursor: pointer;
 }
 
 /* BiDi override for the resting state. */
@@ -330,20 +326,6 @@
   /* Flip left/right padding for BiDi. */
   padding-left: 7em;
   padding-right: 28px;
-}
-
-/* If a menu doesn't have checkable items or items with icons, remove left padding. */
-.goog-menu-nocheckbox .goog-menuitem,
-.goog-menu-noicon .goog-menuitem {
-  padding-left: 16px;
-}
-
-/*
- * If a menu doesn't have items with shortcuts, leave just enough room for
- * submenu arrows, if they are rendered.
- */
-.goog-menu-noaccel .goog-menuitem {
-  padding-right: 20px;
 }
 
 .goog-menuitem-content {
@@ -379,12 +361,9 @@
 .goog-menuitem-checkbox,
 .goog-menuitem-icon {
   background-repeat: no-repeat;
-  height: 16px;
-  left: 6px;
-  position: absolute;
-  right: auto;
-  vertical-align: middle;
-  width: 16px;
+  height: 15px !important;
+  width: 15px;
+  margin-right: 4px;
 }
 
 /* BiDi override for the selected/checked state. */
@@ -396,10 +375,16 @@
   right: 6px;
 }
 
+.goog-menuitem.goog-option .goog-menuitem-content {
+  display: flex;
+  align-items: center;
+  position: relative;
+}
+
 .goog-option-selected .goog-menuitem-checkbox,
 .goog-option-selected .goog-menuitem-icon {
   /* Client apps may override the URL at which they serve the sprite. */
-  background: url(//ssl.gstatic.com/editor/editortoolbar.png) no-repeat -512px 0;
+  background: url(gmailUI/editortoolbar.png) no-repeat -512px 0;
 }
 
 /* Keyboard shortcut ("accelerator") style. */
@@ -916,7 +901,7 @@
   text-decoration: none;
   list-style: none;
   vertical-align: middle;
-  cursor: default;
+  cursor: pointer;
   outline: none;
 }
 
@@ -1045,8 +1030,13 @@
   vertical-align: middle;
 }
 
+.goog-toolbar-select .goog-toolbar-menu-button-caption[role="option"] {
+  height: 22px;
+  line-height: 22px;
+}
+
 .goog-toolbar-menu-button-caption > div {
-  height: 24px;
+  height: 22px;
   display: flex;
   align-items: center;
 }
@@ -1095,8 +1085,17 @@
 
 .goog-toolbar-select .goog-toolbar-menu-button-outer-box,
 .goog-toolbar-select .goog-toolbar-menu-button-inner-box {
-  border-color: transparent !important;
-  background-color: #eef1f2 !important;
+  border-color: transparent;
+  background-color: transparent;
+}
+
+/* Thinner padding for color picker buttons, to leave room for the indicator. */
+/* .goog-toolbar-select .goog-menu-button-inner-box, */
+.goog-toolbar-menu-button .goog-toolbar-menu-button-inner-box,
+.goog-toolbar-color-menu-button .goog-toolbar-menu-button-inner-box,
+.goog-toolbar-select .goog-toolbar-menu-button-inner-box {
+  padding-top: 2px !important;
+  padding-bottom: 2px !important;
 }
 
 /*
@@ -1117,12 +1116,7 @@
   border-bottom: 4px solid #f0f0f0;
 } */
 
-/* Thinner padding for color picker buttons, to leave room for the indicator. */
-.goog-color-menu-button .goog-menu-button-inner-box,
-.goog-toolbar-color-menu-button .goog-toolbar-menu-button-inner-box {
-  padding-top: 2px !important;
-  padding-bottom: 2px !important;
-}
+
 
 /*
  * Copyright 2009 The Closure Library Authors. All Rights Reserved.
@@ -1189,7 +1183,7 @@
 
 .goog-palette-cell-selected .goog-palette-colorswatch {
   /* Client apps may override the URL at which they serve the sprite. */
-  background: url(//ssl.gstatic.com/editor/editortoolbar.png) no-repeat -368px 0;
+  background: url(gmailUI/editortoolbar.png) no-repeat -368px 0;
   border: 1px solid #333;
   color: #fff;
   font-weight: bold;
@@ -1405,11 +1399,13 @@ div.tr_multi_bubble div.tr_bubble_panel {
 
 /* Common base style for all icons. */
 .tr-icon {
-  width: 22px;
-  height: 22px;
+  width: 21px;
+  height: 21px;
   vertical-align: middle;
   background-size: contain;
   background-repeat: no-repeat;
+  background-position: center;
+  cursor: pointer;
 }
 
 /* .goog-color-menu-button-indicator .tr-icon {
@@ -1430,20 +1426,22 @@ div.tr_multi_bubble div.tr_bubble_panel {
 
 /* Font name. */
 .tr-fontName .goog-toolbar-menu-button-caption {
-  color: #246;
   overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
   font-weight: bold;
   font-family: sans-serif;
+  width: 4.5rem;
 }
 
 /* Font size. */
 .tr-fontSize .goog-toolbar-menu-button-caption {
   background-image: url("gmailUI/baseline-text_fields-24px.svg");
   background-repeat: no-repeat;
-  /* color: #246;
-  width: 8ex;
-  height: 16px;
-  overflow: hidden; */
+  width: 21px;
+  height: 21px;
+  color: transparent;
+  overflow: hidden;
 }
 
 /* Bold. */
@@ -1639,3 +1637,12 @@ div.tr_multi_bubble div.tr_bubble_panel {
   height: 16px;
   overflow: hidden;
 } */
+
+.goog-toolbar-menu {
+  overflow: auto;
+}
+
+/* "Text justify". menu. */
+.goog-menu-text-justify .goog-menuitem {
+  padding: 6px 8px;
+}
