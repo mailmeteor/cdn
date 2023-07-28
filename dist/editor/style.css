@@ -1646,3 +1646,11 @@ div.tr_multi_bubble div.tr_bubble_panel {
 .goog-menu-text-justify .goog-menuitem {
   padding: 6px 8px;
 }
+
+.goog-menu-text-justify .goog-menuitem .tr-icon {
+  background-size: 18px;
+}
+
+.goog-toolbar-menu-button .goog-toolbar-menu-button-caption .tr-justifyLeft {
+  background-size: 18px;
+}
