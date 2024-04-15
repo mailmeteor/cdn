@@ -6,8 +6,8 @@
   <DefaultLocale>en-US</DefaultLocale>
   <DisplayName DefaultValue="Mailmeteor"/>
   <Description DefaultValue="Send mass emails from Excel."/>
-  <IconUrl DefaultValue="https://cdn.mailmeteor.com/extensions/microsoft-excel/assets/img/icon-32.png"/>
-  <HighResolutionIconUrl DefaultValue="https://cdn.mailmeteor.com/extensions/microsoft-excel/assets/img/icon-64.png"/>
+  <IconUrl DefaultValue="https://cdn.mailmeteor.com/extensions/microsoft-excel/assets/img/icons/icon-32.png"/>
+  <HighResolutionIconUrl DefaultValue="https://cdn.mailmeteor.com/extensions/microsoft-excel/assets/img/icons/icon-64.png"/>
   <SupportUrl DefaultValue="https://mailmeteor.com/support"/>
   <AppDomains>
     <AppDomain>https://mailmeteor.com</AppDomain>
@@ -62,9 +62,9 @@
     </Hosts>
     <Resources>
       <bt:Images>
-        <bt:Image id="Icon.16x16" DefaultValue="https://cdn.mailmeteor.com/extensions/microsoft-excel/assets/img/icon-16.png"/>
-        <bt:Image id="Icon.32x32" DefaultValue="https://cdn.mailmeteor.com/extensions/microsoft-excel/assets/img/icon-32.png"/>
-        <bt:Image id="Icon.80x80" DefaultValue="https://cdn.mailmeteor.com/extensions/microsoft-excel/assets/img/icon-80.png"/>
+        <bt:Image id="Icon.16x16" DefaultValue="https://cdn.mailmeteor.com/extensions/microsoft-excel/assets/img/icons/icon-16.png"/>
+        <bt:Image id="Icon.32x32" DefaultValue="https://cdn.mailmeteor.com/extensions/microsoft-excel/assets/img/icons/icon-32.png"/>
+        <bt:Image id="Icon.80x80" DefaultValue="https://cdn.mailmeteor.com/extensions/microsoft-excel/assets/img/icons/icon-80.png"/>
       </bt:Images>
       <bt:Urls>
         <bt:Url id="GetStarted.LearnMoreUrl" DefaultValue="https://mailmeteor.com/support"/>
