@@ -6,8 +6,8 @@
   <DefaultLocale>en-US</DefaultLocale>
   <DisplayName DefaultValue="Mailmeteor"/>
   <Description DefaultValue="Send mass emails from Excel."/>
-  <IconUrl DefaultValue="https://cdn.mailmeteor.com/extensions/microsoft-excel/assets/icon-32.png"/>
-  <HighResolutionIconUrl DefaultValue="https://cdn.mailmeteor.com/extensions/microsoft-excel/assets/icon-64.png"/>
+  <IconUrl DefaultValue="https://cdn.mailmeteor.com/extensions/microsoft-excel/assets/img/icon-32.png"/>
+  <HighResolutionIconUrl DefaultValue="https://cdn.mailmeteor.com/extensions/microsoft-excel/assets/img/icon-64.png"/>
   <SupportUrl DefaultValue="https://mailmeteor.com/support"/>
   <AppDomains>
     <AppDomain>https://mailmeteor.com</AppDomain>
