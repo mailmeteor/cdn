@@ -83,7 +83,7 @@
     </Resources>
     <WebApplicationInfo>
       <Id>9c93171b-a1b9-483d-a610-9d34df7e8788</Id>
-      <Resource>api://localhost:3000/9c93171b-a1b9-483d-a610-9d34df7e8788</Resource>
+      <Resource>api://cdn.mailmeteor.com/9c93171b-a1b9-483d-a610-9d34df7e8788</Resource>
       <Scopes>
         <Scope>Files.ReadWrite</Scope>
         <Scope>Mail.Send</Scope>
