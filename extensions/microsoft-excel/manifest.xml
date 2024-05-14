@@ -4,8 +4,16 @@
   <Version>1.0.0.0</Version>
   <ProviderName>Mailmeteor</ProviderName>
   <DefaultLocale>en-US</DefaultLocale>
-  <DisplayName DefaultValue="Mailmeteor"/>
-  <Description DefaultValue="Send mass emails from Excel."/>
+  <DisplayName DefaultValue="Mail merge">
+    <Override Locale="fr-fr" Value="Publipostage" />
+    <Override Locale="de-de" Value="Serienamil" />
+    <Override Locale="es-es" Value="Correos masivos" />
+  </DisplayName>
+  <Description DefaultValue="Send mass emails from Excel.">
+    <Override Locale="fr-fr" Value="Envoyer des e-mails en masse depuis Excel." />
+    <Override Locale="de-de" Value="Versenden Sie Massen-E-Mails aus Excel." />
+    <Override Locale="es-es" Value="Envía correos masivos desde Excel." />
+  </Description>
   <IconUrl DefaultValue="https://cdn.mailmeteor.com/extensions/microsoft-excel/assets/img/icons/icon-32.png"/>
   <HighResolutionIconUrl DefaultValue="https://cdn.mailmeteor.com/extensions/microsoft-excel/assets/img/icons/icon-64.png"/>
   <SupportUrl DefaultValue="https://mailmeteor.com/support"/>
