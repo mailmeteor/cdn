@@ -254,6 +254,24 @@
   cursor: default;
 }
 
+/**
+ * Info link
+ */
+
+.goog-info-link {
+  content: "";
+  display: inline-flex;
+  width: 16px;
+  height: 16px;
+  margin-left: 4px;
+  background-image: url("gmailUI/baseline-info-24px.svg");
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: 12px;
+  vertical-align: middle;
+  opacity: 0.5;
+}
+
 /*
  * Copyright 2009 The Closure Library Authors. All Rights Reserved.
  *
@@ -1231,7 +1249,7 @@ div.tr_bubble {
   -moz-border-radius: 2px;
   -webkit-border-radius: 2px;
   font-size: 83%;
-  font-family: Arial, Helvetica, sans-serif;
+  font-family: Arial, sans-serif;
   white-space: nowrap;
 }
 
@@ -1430,7 +1448,7 @@ div.tr_multi_bubble div.tr_bubble_panel {
   text-overflow: ellipsis;
   white-space: nowrap;
   font-weight: bold;
-  font-family: sans-serif;
+  font-family: Arial, sans-serif;
   width: 4.5rem;
 }
 
@@ -1499,6 +1517,170 @@ div.tr_multi_bubble div.tr_bubble_panel {
   display: inline-block;
   position: absolute;
   visibility: visible;
+}
+
+/* Layout editor */
+
+.tr-layout-editor {
+  background-image: url("gmailUI/baseline-layout_editor-24px.svg");
+}
+
+.goog-layout-editor-button-active {
+  background-color: #eef1f2 !important;
+}
+
+.goog-layout-editor-form {
+  position: absolute;
+  background: white;
+  padding: 1.25em;
+  font-family: Arial, sans-serif;
+  background: #fff;
+  border: 1px solid transparent;
+  border-radius: 4px;
+  box-shadow: 0 2px 6px 2px rgb(60 64 67 / 15%);
+}
+
+.goog-layout-editor-form-title {
+  font-weight: bold;
+  font-size: 16px;
+}
+
+.goog-layout-editor-form > label {
+  font-weight: 400;
+  margin-bottom: 0.625em;
+  padding-top: 0.625em;
+  display: block;
+  font-size: 14px;
+}
+
+.goog-layout-editor-form > label:first-child {
+  padding-top: 0;
+}
+
+.goog-layout-editor-form-row {
+  display: flex;
+  align-items: center;
+  margin-bottom: 0.75em;
+}
+
+.goog-layout-editor-form-row input:last-child {
+  margin-right: 0;
+}
+
+.goog-layout-editor-form-row:last-child {
+  margin-bottom: 0;
+}
+
+.goog-layout-editor-form-control {
+  cursor: default;
+  width: 3.125em; /* 50px to em */
+  padding: 2px 4px; /* Keep px for input padding as it's more conventional */
+}
+
+
+.goog-layout-editor-form-group {
+  box-sizing: border-box;
+  padding: 0.125em 0.25em 0.125em 0.25em;
+  display: flex;
+  margin-right: 0.5em;
+  border: 1px solid transparent;
+  border-radius: 4px;
+  transition: 0.25s border-color;
+}
+
+.goog-layout-editor-form-group:hover,
+.goog-layout-editor-form-group:focus-within {
+  border-color: #F2F2F2;
+}
+
+.goog-layout-editor-form-group img {
+  margin-right: 4px;
+}
+
+.goog-layout-editor-form-group span {
+  min-width: 0.9375em; /* 15px to em */
+  text-align: center;
+}
+
+.goog-layout-editor-form-group input[type=text],
+.goog-layout-editor-form-group input[type=number] {
+  border: none;
+  background-color: white;
+  width: 3.75em;
+  outline: none;
+  appearance: textfield;
+}
+
+.goog-layout-editor-form-group input[type=number]::-webkit-outer-spin-button,
+.goog-layout-editor-form-group input[type=number]::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+.goog-layout-editor-form-group input[type="color"] {
+  width: 16px;
+  height: 16px;
+  padding: 0;
+  margin: 2px;
+  border: 1px solid #F2F2F2;
+  background-color: transparent;
+  cursor: pointer;
+  outline: none;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+}
+
+.goog-layout-editor-form-group input[type="color"]::-webkit-color-swatch-wrapper,
+.goog-layout-editor-form-group input[type="color"]::-moz-color-swatch-wrapper {
+	padding: 0;
+  border-color: transparent;
+}
+
+.goog-layout-editor-form-group input[type="color"]::-webkit-color-swatch,
+.goog-layout-editor-form-group input[type="color"]::-moz-color-swatch {
+  border-color: transparent;
+	border: none;
+}
+
+.mm-tooltip {
+  position: relative;
+}
+
+.mm-tooltip .mm-tooltip-text {
+  visibility: hidden;
+  white-space: nowrap;
+  background-color: black;
+  color: white;
+  text-align: center;
+  padding: 10px 10px 10px 10px;
+  border-radius: 6px;
+  position: absolute;
+  z-index: 1;
+  bottom: 150%;
+  left: 50%;
+  transform: translateX(-50%);
+  opacity: 0;
+  transition: opacity 0.05s;
+  transition-delay: 0.5s;
+  font-size: 12px;
+  font-family: Arial, sans-serif
+}
+
+.mm-tooltip .mm-tooltip-text::after {
+  content: '';
+  position: absolute;
+  top: 100%;
+  left: 50%;
+  margin-left: -5px;
+  border-width: 5px;
+  border-style: solid;
+  border-color: black transparent transparent transparent;
+}
+
+.mm-tooltip:hover .mm-tooltip-text {
+  visibility: visible;
+  opacity: 1;
 }
 
 /* Insert drawing.
