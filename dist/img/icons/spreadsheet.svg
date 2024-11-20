@@ -1,9 +1,16 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<svg width="18px" height="18px" viewBox="0 0 18 18" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
-    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
-        <g id="google-spreadsheet" transform="translate(-3.000000, -3.000000)">
-            <polygon id="Path" points="0 0 24 0 24 24 0 24"></polygon>
-            <path d="M19,11 L19,9 L11,9 L11,5 L9,5 L9,9 L5,9 L5,11 L9,11 L9,19 L11,19 L11,11 L19,11 M19,3 C19.5,3 20,3.2 20.39,3.61 C20.8,4 21,4.5 21,5 L21,19 C21,19.5 20.8,20 20.39,20.39 C20,20.8 19.5,21 19,21 L5,21 C4.5,21 4,20.8 3.61,20.39 C3.2,20 3,19.5 3,19 L3,5 C3,4.5 3.2,4 3.61,3.61 C4,3.2 4.5,3 5,3 L19,3 Z" id="Shape" fill="#4DA953" fill-rule="nonzero"></path>
-        </g>
-    </g>
+<svg width="15" height="21" viewBox="0 0 15 21" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <path d="M9.08 0.512H1.574C0.845 0.512 0.249 1.108 0.249 1.837V18.615C0.249 19.344 0.845 19.94 1.574 19.94H13.054C13.782 19.94 14.378 19.344 14.378 18.615V5.81L9.08 0.512Z" fill="#0F9D58"/>
+  <path d="M3.781 10.005V16.407H10.846V10.005H3.781ZM6.872 15.524H4.664V14.42H6.872V15.524ZM6.872 13.758H4.664V12.654H6.872V13.758ZM6.872 11.992H4.664V10.888H6.872V11.992ZM9.963 15.524H7.755V14.42H9.963V15.524ZM9.963 13.758H7.755V12.654H9.963V13.758ZM9.963 11.992H7.755V10.888H9.963V11.992Z" fill="#F1F1F1"/>
+  <path d="M9.468 5.423L14.379 10.333V5.81L9.468 5.423Z" fill="url(#paint0_linear_31_43)"/>
+  <path d="M9.08 0.512V4.486C9.08 5.218 9.673 5.81 10.405 5.81H14.379L9.08 0.512Z" fill="#87CEAC"/>
+  <path d="M1.574 0.512C0.845 0.512 0.249 1.108 0.249 1.837V1.947C0.249 1.218 0.845 0.622 1.574 0.622H9.08V0.512H1.574Z" fill="white" fill-opacity="0.2"/>
+  <path d="M13.054 19.829H1.574C0.845 19.829 0.249 19.233 0.249 18.505V18.615C0.249 19.344 0.845 19.94 1.574 19.94H13.054C13.782 19.94 14.378 19.344 14.378 18.615V18.505C14.378 19.233 13.782 19.829 13.054 19.829Z" fill="#263238" fill-opacity="0.2"/>
+  <path d="M10.405 5.81C9.673 5.81 9.08 5.218 9.08 4.486V4.596C9.08 5.328 9.673 5.921 10.405 5.921H14.379V5.81H10.405Z" fill="#263238" fill-opacity="0.1"/>
+  <defs>
+    <linearGradient id="paint0_linear_31_43" x1="11.924" y1="5.844" x2="11.924" y2="10.334" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#263238" stop-opacity="0.2"/>
+      <stop offset="1" stop-color="#263238" stop-opacity="0.02"/>
+    </linearGradient>
+  </defs>
 </svg>
