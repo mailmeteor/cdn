@@ -4,4 +4,4 @@
 
 Aloha 👋
 
-This service is provided by [Mailmeteor.com](https://mailmeteor.com)
+This service is provided by [Mailmeteor.com](https://mailmeteor.com).
