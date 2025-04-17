@@ -1603,7 +1603,7 @@ div.tr_multi_bubble div.tr_bubble_panel {
 
 /* Strike through text */
 .tr-strikeThrough {
-  background-image: url("gmailUI/baseline-strikethrough_s-24px.svg");
+  background-image: url("gmailUI/baseline-format_strikethrough-24px.svg");
 }
 
 /* Subscript */
