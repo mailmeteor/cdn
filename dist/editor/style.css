@@ -1603,7 +1603,7 @@ div.tr_multi_bubble div.tr_bubble_panel {
 
 /* Strike through text */
 .tr-strikeThrough {
-  background-image: url("gmailUI/baseline-format_strikethrough-24px.svg");
+  background-image: url("gmailUI/baseline-format_clear-24px.svg");
 }
 
 /* Subscript */
@@ -1628,6 +1628,11 @@ div.tr_multi_bubble div.tr_bubble_panel {
 
 .tr-edit-html {
   background-image: url("gmailUI/baseline-code-24px.svg");
+}
+
+/* AI Email Writer */
+.tr-ai-email-writer {
+  background-image: url("gmailUI/baseline-ai_email_writer-24px.svg");
 }
 
 /* "Format block" menu. */
